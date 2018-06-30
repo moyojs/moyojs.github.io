@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" >
+<!-- ALC Final Challenge
+     Pixel Art Maker
+     Moyo Jimi-Shotunde -->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="css/style.css"> 
+  
+</head>
+<body>
+    <h1 id="header">Pixel Art Maker</h1>
+
+    <h2>Grid Size</h2>
+    <form id="sizePicker">
+        Height:
+        <input type="number" id="inputHeight" name="height" min="1" value="1">
+        Width:
+        <input type="number" id="inputWeight" name="width" min="1" value="1">
+        <input type="submit">
+    </form>
+  
+    <h2>Pick A Color</h2>
+    <input type="color" id="colorPicker">
+  
+  <div id=canvas>
+    <h2>Canvas</h2>
+    <table id="pixelCanvas"></table>
+  </div>
+
+<!-- JQuery CDN link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/designs.js"></script>
+  
+  <footer>
+    <p align="right">:)</p>
+  </footer>
+
+</html>
