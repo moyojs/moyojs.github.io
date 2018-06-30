@@ -2,13 +2,13 @@
 
 //makeGrid function that is called when user submits form
 function makeGrid() {
-  var row = $("#inputHeight").val();
-  var clm = $("#inputWeight").val();
-  var table = $("#pixelCanvas");
+  const row = $("#inputHeight").val();
+  const clm = $("#inputWeight").val();
+  const table = $("#pixelCanvas");
 
   table.children().remove();
   
-var x, y;
+const x, y;
   for (x = 0; x < row; x++) {
     table.append("<tr></tr>");
    }
