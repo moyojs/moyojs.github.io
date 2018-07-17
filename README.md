@@ -1,4 +1,4 @@
 # moyojs.github.io
 Pixel Art Maker
 
-https://moyojs.github.io/Pixel Art Maker.html
+https://moyojs.github.io/PixelArtMaker.html
